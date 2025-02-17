@@ -17,6 +17,10 @@
             if($jsCounterNumber !== 0) {
                 $jsCounter.textContent = $jsCounterNumber - 1;
             }
+            // アレンジ箇所(アラート)
+            if($jsCounterNumber === 0) {
+                alert("値が0のため減算できません");
+            }
         }
     };
 	// イベントリスナーを設定
