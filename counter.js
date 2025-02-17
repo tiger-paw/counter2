@@ -13,7 +13,10 @@
         if ($clickButton.textContent === "+") {
             $jsCounter.textContent = $jsCounterNumber + 1;
         } else {
-            $jsCounter.textContent = $jsCounterNumber - 1;
+            // アレンジ箇所(カウンターの値が0の場合は減算できない)
+            if($jsCounterNumber !== 0) {
+                $jsCounter.textContent = $jsCounterNumber - 1;
+            }
         }
     };
 	// イベントリスナーを設定
