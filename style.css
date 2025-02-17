@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body {
+	text-align: center;
+}
+/* h1 {} */
+
+.counter {
+	padding: 20px;
+	width: 40%;
+	border: 5px double #333;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.counter-number {
+	font-size: 30px;
+	padding: 10px 0;
+}
+/* #js-counter {} */
+
+.button {
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 0 5px;
+	font-weight: bold;
+	width: auto;
+	background-color: #000;
+	border-radius: 5px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
+
+#js-reset-button {
+	width: auto;
+}
